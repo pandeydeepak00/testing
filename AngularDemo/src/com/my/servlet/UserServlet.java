@@ -42,6 +42,7 @@ public class UserServlet extends HttpServlet {
 		}
 		resp.setContentType("application/json");
 		data.write(object.toString());
+		System.out.println( "Hiiiiiiiiiiiiiiiiiiiiiii");
 		
 	}
 
