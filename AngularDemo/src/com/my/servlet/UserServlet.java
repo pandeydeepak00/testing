@@ -44,6 +44,7 @@ public class UserServlet extends HttpServlet {
 		data.write(object.toString());
 		System.out.println( "Hiiiiiiiiiiiiiiiiiiiiiii");
 		System.out.println("Kise ho ");
+		System.out.println("Theek tum btawo");
 		
 	}
 
