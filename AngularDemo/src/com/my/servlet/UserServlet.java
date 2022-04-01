@@ -16,6 +16,8 @@ import org.json.JSONObject;
 
 @WebServlet(name="UserServlet" ,urlPatterns={"/Action.do"})
 public class UserServlet extends HttpServlet {
+	
+	private static final long serialVersionUID = 3591607872095183484L;
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
@@ -40,6 +42,9 @@ public class UserServlet extends HttpServlet {
 		}
 		resp.setContentType("application/json");
 		data.write(object.toString());
+		System.out.println( "Hiiiiiiiiiiiiiiiiiiiiiii");
+		System.out.println("Kise ho ");
+		System.out.println("Theek tum btawo");
 		
 	}
 
